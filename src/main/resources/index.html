@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Automated Calculator</title>
+</head>
+<body>
+<h1>Addition</h1>
+<form action="http://localhost:9000/add-post" method="post" target="add-result">
+    <input type="number" id="number1-input" name="number1"><b>+</b><input type="number" id="number2-input" name="number2">
+    <button id="add-btn">Add</button>
+</form>
+<iframe name="add-result"></iframe>
+
+<h1>Subtraction</h1>
+<form action="http://localhost:9000/sub-post" method="post" target="sub-result">
+    <input type="number" step="any" id="number3-input" name="number3"><b>-</b><input type="number" step="any" id="number4-input" name="number4">
+    <button id="sub-btn">Subtract</button>
+</form>
+<iframe name="sub-result"></iframe>
+
+<h1>Multiplication</h1>
+<form action="http://localhost:9000/mult-post" method="post" target="mult-result">
+    <input type="number" step="any" id="number5-input" name="number5"><b>*</b><input type="number" step="any" id="number6-input" name="number6">
+    <button id="mult-btn">Multiply</button>
+</form>
+<iframe name="mult-result"></iframe>
+
+<h1>Division</h1>
+<form action="http://localhost:9000/div-post" method="post" target="div-result">
+    <input type="number" step="any" id="number7-input" name="number7"><b>/</b><input type="number" step="any" id="number8-input" name="number8">
+    <button id="div-btn">Divide</button>
+</form>
+<iframe name="div-result"></iframe>
+
+</body>
+</html>
